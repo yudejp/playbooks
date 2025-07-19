@@ -1,0 +1,103 @@
+sh:
+  hosts:
+    maple.nrt.yude.jp:
+      ansible_host: maple.tail5b1c5.ts.net
+      ansible_user: root
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    bway.hnd.yude.jp:
+      ansible_host: bway.tail5b1c5.ts.net
+      ansible_user: root
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    whale.hnd.yude.jp:
+      ansible_host: whale.tail5b1c5.ts.net
+      ansible_user: root
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    hitachi.ibr.yude.jp:
+      ansible_host: hitachi.tail5b1c5.ts.net
+      ansible_user: root
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    sh.maple.nrt.yude.jp:
+      ansible_host: s-maple.tail5b1c5.ts.net
+      ansible_user: root
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    sh.bway.hnd.yude.jp:
+      ansible_host: s-bway.tail5b1c5.ts.net
+      ansible_user: root
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    sh.hitachi.ibr.yude.jp:
+      ansible_host: s-hitachi.tail5b1c5.ts.net
+      ansible_user: root
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    dune.ttj.yude.jp:
+      ansible_host: dune.tail5b1c5.ts.net
+      ansible_user: yude
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    rakka.nrt.yude.jp:
+      ansible_host: rakka.tail5b1c5.ts.net
+      ansible_user: yude
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    wheel.nrt.yude.jp:
+      ansible_host: wheel.tail5b1c5.ts.net
+      ansible_user: yude
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    pbx.nrt.yude.jp:
+      ansible_host: yudepbx.tail5b1c5.ts.net
+      ansible_user: root
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    k8s-master.nrt.yude.jp:
+      ansible_host: kube-04.tail5b1c5.ts.net
+      ansible_user: yude
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    dev.nrt.yude.jp:
+      ansible_host: dev.tail5b1c5.ts.net
+      ansible_user: yude
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    dev2.ibr.yude.jp:
+      ansible_host: dev2.tail5b1c5.ts.net
+      ansible_user: root
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    mikan.oci.yude.jp:
+      ansible_host: mikan.tail5b1c5.ts.net
+      ansible_user: ubuntu
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    brick.nja.yude.jp:
+      ansible_host: brick.tail5b1c5.ts.net
+      ansible_user: yude
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    ponkan.oci.yude.jp:
+      ansible_host: ponkan.tail5b1c5.ts.net
+      ansible_user: ubuntu
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    dekopon.oci.yude.jp:
+      ansible_host: dekopon.tail5b1c5.ts.net
+      ansible_user: ubuntu
+      ansible_become: yes
+      ansible_port: 22
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'

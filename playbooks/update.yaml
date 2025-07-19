@@ -1,0 +1,19 @@
+---
+- name: Update all packages (apt)
+  hosts: sh
+  tasks:
+    - name: apt update
+      become: yes
+      ignore_unreachable: yes
+      ansible.builtin.apt:
+        update_cache: yes
+    - name: apt upgrade
+      become: yes
+      ignore_unreachable: yes
+      ansible.builtin.apt:
+        upgrade: yes
+    - name: apt autoremove
+      become: yes
+      ignore_unreachable: yes
+      ansible.builtin.apt:
+        autoremove: yes
